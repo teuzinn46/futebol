@@ -1,0 +1,109 @@
+*{
+    border: none;
+    padding: 0%;
+    margin: 0%;
+}
+@font-face {
+    font-family: "bebas";
+    src: url(fonte/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(fonte/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "yelow";
+    src: url(fonte/Yellowtail-Regular.ttf);
+}
+header{
+    background-color: #00443A;
+    height: 150px;
+    color: white;
+
+}
+header div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.title h1{
+    font-family: "bebas";
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 460px;
+}
+.title h2{
+    font-family: "yelow";
+    font-size: 35px;
+    margin-top: 48px;
+}
+.titC{
+    font-family: "bebas";
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.linha{
+    height: 6px;
+    background-color: #ABFF00;
+    width: 600px;
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.container img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 200px;
+}
+.text h2{
+    font-family: "bebas";
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+}
+footer{
+    background-color: #00443A;
+    height: 200px;
+    margin-top: 50px;
+    color: white;
+}
+.links h2{
+    font-family: "bebas";
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.links nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 670px;
+    gap: 5px;
+}
+nav a{
+    font-family: "bebas";
+    font-size: 20px;
+    color: black;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 62px;
+    padding-left: 360px;
+}
